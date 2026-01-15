@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+=======
+    <link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
+>>>>>>> 1d38d229e53473f56d306efbc4570ec39badfaec
+    <title>My Portfolio</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/a2263aa1a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img style="width: 190px" src="img/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hey, I am <span>Sravan</span><br>From Kerala</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------------------------------About-------------------------------------------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/my dp.jpg" alt="my-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm glad to meet you. My name is Sravan I am a self learning delveloper and a student of Brototype. I have learned web desiging using HTML/CSS from reputed platforms like Free Code Camp and Brototpe. One thing I would like to say I was a mobile technician once before switching my carrer to IT. If you want to learn more about my journey in last few years <a href="pages/about.html" target="_blank">click here</a></p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Desiniging</span><br>Desiniging using HTML/CSS</li>
+                            <li><span>C programming</span><br>C Programming language</li>
+                            <li><span>Mobile Technician</span><br>Android Mobile servicing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Desiniging</span><br>Desing using HTML/CSS</li>
+                            <li><span>C programming</span><br>C Programming language</li>
+                            <li><span>Mobile Technician</span><br>Worked in 3 Shops 1 year</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SSLC(10th)</span><br>K S Abdullath English Medium School</li>
+                            <li><span>12 th</span><br>National Institute of Open Schooling(NIOS)</li>
+                            <li><span>Mobile Technician</span><br>ICS Mobile Kasargod</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------Services----------------------------------->
+
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desigining</h2>
+                    <br>
+                    <p>I learned Web designing from Brototype web desigining challenge, and also I learned web desigining using HTML/CSS from Free Code Camp.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Technician</h2>
+                    <br>
+                    <p>I learned mobile servicing from ICS mobile tech Kasargod. I have practical and theoretical knowladge. I have deep knowladge in Mobile IC and I am chip level technician.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C Programming</h2>
+                    <p>I am having a knowladge on programming language C. I learned it from Brototype 100K Coding Challenge.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------------------------------------Portfolio------------------------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+           <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+            <div class="work">
+                <img src="img/web-design-header.jpg" alt="web desiginning pic">
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p>I have done 4 social media platrom clones, you can check it on git hub</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+               <img src="img/servicing.webp" alt="mobile servicing pic">
+               <div class="layer">
+                <h3>Mobile Technician</h3>
+                <p>I have 1 year experirnce in reeparing android phones in IC level</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+                <img src="img/C_Programming-1-1170x728.jpg" alt="C programming pic">
+                <div class="layer">
+                    <h3>C Programming Language</h3>
+                    <p>I know intermediate level programming in C language</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+         </div>
+           <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!--------------------------------------------Contact--------------------------------------->
+
+    <hr>
+    <br>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sravancg21@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7736694430</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sravancg2003/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sravancg2003" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/SravanCG2003" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/man_of_dark_secrets/?igsh=MTE4MzM3cWNkZWJ6dg%3D%3D#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="img/my dp.jpg" download class="btn btn-2">Download My Photo</a>
+                </div>
+                <div class="contact-right">
+                    <div id="error"></div>
+                    <form name="submit-to-google-sheet" id="document" onsubmit="javascript:alert('Your message has been sent');">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sravan Made with<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+<!--Nav bar for mobile-->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+
+    <!--Google sheet for form submission-->
+
+    <script>
+
+var sidemenu = document.querySelector("nav ul");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzz7_JyCr6tfrDLce1jx54q6IrFSktGH_RviqRw7jw-tZZbV8IKTSunsvbGlRjHxeO_rA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    
+</body>
+</html>
